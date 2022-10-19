@@ -46,6 +46,12 @@
                         <color key="backgroundColor" systemColor="systemGray2Color"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="fUD-4g-OJx"/>
+                    <connections>
+                        <outlet property="number1TextField" destination="ssm-lG-8xq" id="HMv-Kx-xcQ"/>
+                        <outlet property="number2TextField" destination="bkB-Mb-0LN" id="Hp1-9u-Qwa"/>
+                        <outlet property="plusButton" destination="M0c-Ur-1WV" id="iR2-bk-ikF"/>
+                        <outlet property="resultLabel" destination="Myu-ii-AcK" id="9Yb-Z6-cdB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -100,6 +106,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="MAB-xT-Gpx" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Kqo-sJ-gdW">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
