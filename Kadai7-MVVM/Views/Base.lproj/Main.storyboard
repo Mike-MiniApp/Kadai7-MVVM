@@ -95,6 +95,12 @@
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="rpt-wo-gNJ"/>
+                    <connections>
+                        <outlet property="calcResultLabel" destination="y5p-BS-reA" id="9rU-nb-aIN"/>
+                        <outlet property="minusButton" destination="3Sp-Be-TmX" id="991-bV-cMT"/>
+                        <outlet property="number1TextField" destination="pil-eH-zai" id="VW5-1m-5If"/>
+                        <outlet property="number2TextField" destination="Q3U-iK-fnA" id="RDn-wg-NKh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZM1-7u-qng" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
