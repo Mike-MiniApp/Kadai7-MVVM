@@ -9,11 +9,16 @@ import XCTest
 @testable import Kadai7_MVVM
 
 final class Kadai7_MVVMTests: XCTestCase {
-//
-//    let calculator = Calculator()
-//    func 足し算() {
-//        XCTAssertEqual(calculator.addition(number1: 1, number2: 1), 2)
-//    }
+
+    let calculator = Calculator()
+
+    func 足し算() {
+        XCTAssertEqual(calculator.addition(number1: 1, number2: 1), 2)
+    }
+
+    func 引き算() {
+        XCTAssertEqual(calculator.addition(number1: 1, number2: 1), 0)
+    }
 
 
     override func setUpWithError() throws {
